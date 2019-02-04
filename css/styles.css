@@ -1,3 +1,14 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  height: 100%;
+}
+
 .navbar {
   background-color: #d1d1d1;
 }
@@ -5,4 +16,35 @@
 .nav-item {
   font-size: 20px;
   font-weight: bold;
+}
+
+.footer {
+  width: 100%;
+  background-color: #393939;
+  padding: .5em 0;
+  text-align: center;
+}
+
+.footer a{
+  color: white;
+}
+
+.box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.box .container {
+  margin: 0 auto;
+  flex: 1 1 auto;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  width: 100%;
+}
+
+.box .container .row {
+  min-height: 100%;
+  width: 100%;
 }
