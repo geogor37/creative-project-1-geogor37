@@ -65,10 +65,23 @@ body {
   margin: 20px auto;
 }
 
+.game {
+  padding-top: 10px;
+  line-height: 8px;
+}
+
 .game.byu-primary {
   border: solid 2px #001C54;
 }
 
 .game.knights-primary {
   border: solid 2px #85714D;
+}
+
+.score.win {
+  color: #008000
+}
+
+.score.loss {
+  color: #FF0000;
 }
