@@ -25,6 +25,10 @@ body {
   text-align: center;
 }
 
+.footer.byu-primary {
+  background-color: #001C54;
+}
+
 .footer a{
   color: white;
 }
@@ -55,4 +59,16 @@ body {
 
 .header.team-logo {
   margin-right: 50px;
+}
+
+.schedule {
+  margin: 20px auto;
+}
+
+.game.byu-primary {
+  border: solid 2px #001C54;
+}
+
+.game.knights-primary {
+  border: solid 2px #85714D;
 }
