@@ -9,6 +9,10 @@ body {
   height: 100%;
 }
 
+body.colts-secondary {
+  background-color: #45658A;
+}
+
 .navbar {
   background-color: #d1d1d1;
 }
@@ -27,6 +31,10 @@ body {
 
 .footer.byu-primary {
   background-color: #001C54;
+}
+
+.footer.colts-primary {
+  background-color: #002C5F;
 }
 
 .footer.knights-primary {
@@ -50,6 +58,7 @@ body {
   flex-flow: column;
   height: 100%;
   width: 100%;
+  background-color: white;
 }
 
 .box .container .row.full-height {
@@ -59,6 +68,7 @@ body {
 
 .team-logo {
   max-height: 70px;
+  margin: 5px 0;
 }
 
 .header.team-logo {
@@ -119,5 +129,37 @@ body {
 }
 
 .centered-header.knights-primary {
+color: #85714D;
+}
+
+.season-record {
+margin: 20px 0 0 0;
+text-align: center;
+font-weight: bold;
+}
+
+.season-record.byu-primary {
+  color: #001C54;
+}
+
+.season-record.colts-primary {
+  color: #002C5F;
+}
+
+.season-record.knights-primary {
   color: #85714D;
+}
+
+.news {
+  margin: 20px 0 0 0;
+}
+
+.player-portrait {
+  height: 350px;
+  display: block;
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
 }
