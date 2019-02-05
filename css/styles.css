@@ -9,8 +9,16 @@ body {
   height: 100%;
 }
 
+body.byu-secondary {
+  background-color: #455982;
+}
+
 body.colts-secondary {
   background-color: #45658A;
+}
+
+body.knights-secondary {
+  background-color: #A6977D;
 }
 
 .navbar {
@@ -68,7 +76,7 @@ body.colts-secondary {
 
 .team-logo {
   max-height: 70px;
-  margin: 5px 0;
+  margin: 8px 0;
 }
 
 .header.team-logo {
