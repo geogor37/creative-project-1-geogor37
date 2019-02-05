@@ -21,6 +21,14 @@ body.knights-secondary {
   background-color: #A6977D;
 }
 
+body.main {
+  background-color: #a5a5a5;
+}
+
+.box.main {
+  background-color: #6F6F6F;
+}
+
 .navbar {
   background-color: #d1d1d1;
 }
@@ -69,9 +77,37 @@ body.knights-secondary {
   background-color: white;
 }
 
+.box .container.full-height.main {
+  background-color: #a5a5a5;
+}
+
 .box .container .row.full-height {
   min-height: 100%;
   width: 100%;
+}
+
+.title {
+  margin-top: 20px;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.home-text {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.subtitle {
+  font-size: 40px;
+  font-style: italic;
+  margin: 12px auto;
+  text-align: center;
+  width: 50%;
 }
 
 .team-logo {
