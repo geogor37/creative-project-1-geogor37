@@ -80,7 +80,16 @@ body.knights-secondary {
 }
 
 .header.team-logo {
-  margin-right: 50px;
+  margin-right: 20px;
+}
+
+a.external{
+  margin-right: 30px;
+  color: #686868;
+}
+
+a.external:hover {
+  color: black;
 }
 
 .schedule {
