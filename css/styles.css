@@ -29,6 +29,10 @@ body {
   background-color: #001C54;
 }
 
+.footer.knights-primary {
+  background-color: #85714D;
+}
+
 .footer a{
   color: white;
 }
@@ -39,7 +43,7 @@ body {
   height: 100%;
 }
 
-.box .container {
+.box .container.full-height {
   margin: 0 auto;
   flex: 1 1 auto;
   display: flex;
@@ -48,7 +52,7 @@ body {
   width: 100%;
 }
 
-.box .container .row {
+.box .container .row.full-height {
   min-height: 100%;
   width: 100%;
 }
@@ -78,10 +82,42 @@ body {
   border: solid 2px #85714D;
 }
 
+.opponent {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.date {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.score {
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .score.win {
   color: #008000
 }
 
 .score.loss {
   color: #FF0000;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.centered-header {
+  font-weight: bold;
+  text-align: center;
+}
+
+.centered-header.byu-primary {
+  color: #001C54;
+}
+
+.centered-header.knights-primary {
+  color: #85714D;
 }
